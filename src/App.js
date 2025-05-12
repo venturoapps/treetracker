@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { trees } from './data';
-import QRCode from 'qrcode.react';
+import { QRCode } from 'qrcode.react';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
